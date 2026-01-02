@@ -1,6 +1,8 @@
 
 # Delivery Market Analysis
 
+![Delivery](/assets/food_delivery.png)
+
 The **Delivery Market Analysis** project explores trends, customer preferences, and market dynamics in Belgium’s food delivery industry. It focuses on the performance of three major platforms: **TakeAway**, **UberEats**, and **Deliveroo**.
 
 Using real-world databases, the project delivers actionable insights for both **restaurant partners** and **consumers**. The goal is to support better strategic decisions, improve market positioning, and ultimately enhance the overall user experience.
