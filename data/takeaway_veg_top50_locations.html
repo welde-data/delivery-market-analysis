@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_133d2ab192ef16efddd179e5446bc6b2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_133d2ab192ef16efddd179e5446bc6b2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_133d2ab192ef16efddd179e5446bc6b2 = L.map(
+                "map_133d2ab192ef16efddd179e5446bc6b2",
+                {
+                    center: [50.8503, 4.3517],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ac59f26877b24e9b8a4802970826b1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3ac59f26877b24e9b8a4802970826b1f.addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+            var circle_marker_458d0de98dbac5a210fcd3530aa64702 = L.circleMarker(
+                [51.19399575, 4.410125593],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.198039027185569, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_35ecd3167530e1072c410a09e88f6243 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a84dcd1f726e8773f0307e62fd2bc7b1 = $(`<div id="html_a84dcd1f726e8773f0307e62fd2bc7b1" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 104</div>`)[0];
+                popup_35ecd3167530e1072c410a09e88f6243.setContent(html_a84dcd1f726e8773f0307e62fd2bc7b1);
+            
+        
+
+        circle_marker_458d0de98dbac5a210fcd3530aa64702.bindPopup(popup_35ecd3167530e1072c410a09e88f6243)
+        ;
+
+        
+    
+    
+            var circle_marker_f9fcda4619312e33dc7039ea884d3df6 = L.circleMarker(
+                [51.21088502, 4.433730383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.198039027185569, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_e35859afef18f9172d8e77f77dc91ac9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_850c25452b2c81ef5e3a939c46451708 = $(`<div id="html_850c25452b2c81ef5e3a939c46451708" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 104</div>`)[0];
+                popup_e35859afef18f9172d8e77f77dc91ac9.setContent(html_850c25452b2c81ef5e3a939c46451708);
+            
+        
+
+        circle_marker_f9fcda4619312e33dc7039ea884d3df6.bindPopup(popup_e35859afef18f9172d8e77f77dc91ac9)
+        ;
+
+        
+    
+    
+            var circle_marker_17764a7b1ebf55ea29793e36bcad4fb5 = L.circleMarker(
+                [51.21317806, 4.451508368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.198039027185569, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_22ff81ec64a36562e2f3a478d9c8e0ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b1cb97ab4886f0eff74a4bd1d3eb6077 = $(`<div id="html_b1cb97ab4886f0eff74a4bd1d3eb6077" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 104</div>`)[0];
+                popup_22ff81ec64a36562e2f3a478d9c8e0ec.setContent(html_b1cb97ab4886f0eff74a4bd1d3eb6077);
+            
+        
+
+        circle_marker_17764a7b1ebf55ea29793e36bcad4fb5.bindPopup(popup_22ff81ec64a36562e2f3a478d9c8e0ec)
+        ;
+
+        
+    
+    
+            var circle_marker_0b46182e82f8a76a787b5e18cd0c1242 = L.circleMarker(
+                [51.21642159, 4.434120929],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.14889156509222, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_7293ce1efb907b90c2a585b888ee739e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_904e704495e3e146ee61caee4b998442 = $(`<div id="html_904e704495e3e146ee61caee4b998442" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 103</div>`)[0];
+                popup_7293ce1efb907b90c2a585b888ee739e.setContent(html_904e704495e3e146ee61caee4b998442);
+            
+        
+
+        circle_marker_0b46182e82f8a76a787b5e18cd0c1242.bindPopup(popup_7293ce1efb907b90c2a585b888ee739e)
+        ;
+
+        
+    
+    
+            var circle_marker_0fc04f8accf84ad3f003304a18382fa6 = L.circleMarker(
+                [51.20983038, 4.452842367],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.14889156509222, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_fd94d512c8a2a649b46fc20e498be53b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4bda4f7b8ebe4884eb9bc31d5b7d8d4 = $(`<div id="html_a4bda4f7b8ebe4884eb9bc31d5b7d8d4" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 103</div>`)[0];
+                popup_fd94d512c8a2a649b46fc20e498be53b.setContent(html_a4bda4f7b8ebe4884eb9bc31d5b7d8d4);
+            
+        
+
+        circle_marker_0fc04f8accf84ad3f003304a18382fa6.bindPopup(popup_fd94d512c8a2a649b46fc20e498be53b)
+        ;
+
+        
+    
+    
+            var circle_marker_d35a5ca2ab725e85232291e64eda9e6d = L.circleMarker(
+                [51.22080455, 4.441732192],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.14889156509222, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_f895c4f8531a930a9a59ac69959f55de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1cb62699b021a0bba18238356bd35ee6 = $(`<div id="html_1cb62699b021a0bba18238356bd35ee6" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 103</div>`)[0];
+                popup_f895c4f8531a930a9a59ac69959f55de.setContent(html_1cb62699b021a0bba18238356bd35ee6);
+            
+        
+
+        circle_marker_d35a5ca2ab725e85232291e64eda9e6d.bindPopup(popup_f895c4f8531a930a9a59ac69959f55de)
+        ;
+
+        
+    
+    
+            var circle_marker_47f8121e2cb13632d92e9f6871861012 = L.circleMarker(
+                [51.19707989, 4.411547693],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.099504938362077, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_1936716db3b4e85d9ed52587149774cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc13ccd0802b8deeb3e653f62295358a = $(`<div id="html_dc13ccd0802b8deeb3e653f62295358a" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 102</div>`)[0];
+                popup_1936716db3b4e85d9ed52587149774cb.setContent(html_dc13ccd0802b8deeb3e653f62295358a);
+            
+        
+
+        circle_marker_47f8121e2cb13632d92e9f6871861012.bindPopup(popup_1936716db3b4e85d9ed52587149774cb)
+        ;
+
+        
+    
+    
+            var circle_marker_2d3b09ffd08b7cc1f11ce1528ceae0fb = L.circleMarker(
+                [51.21420578, 4.425388585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.099504938362077, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_c0993e00ae8c7b8c5619dae322e9aa54 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b30fed3f310154c45592ae9082316b2b = $(`<div id="html_b30fed3f310154c45592ae9082316b2b" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 102</div>`)[0];
+                popup_c0993e00ae8c7b8c5619dae322e9aa54.setContent(html_b30fed3f310154c45592ae9082316b2b);
+            
+        
+
+        circle_marker_2d3b09ffd08b7cc1f11ce1528ceae0fb.bindPopup(popup_c0993e00ae8c7b8c5619dae322e9aa54)
+        ;
+
+        
+    
+    
+            var circle_marker_33282be5a6427eea92b581896addf8bf = L.circleMarker(
+                [51.21529614, 4.44180881],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.099504938362077, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_26d1ab657d4e089845435bf25320f2b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eefb8d4bc1b0207f235da871591ed436 = $(`<div id="html_eefb8d4bc1b0207f235da871591ed436" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 102</div>`)[0];
+                popup_26d1ab657d4e089845435bf25320f2b0.setContent(html_eefb8d4bc1b0207f235da871591ed436);
+            
+        
+
+        circle_marker_33282be5a6427eea92b581896addf8bf.bindPopup(popup_26d1ab657d4e089845435bf25320f2b0)
+        ;
+
+        
+    
+    
+            var circle_marker_33dfe8666a11ca7e05f3a839ddb5ab17 = L.circleMarker(
+                [51.19908499, 4.424140125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.04987562112089, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_d12bab5b2c5713cb31ebffb84d903ebf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_198ebf90dad070d1bd23db03a68ca937 = $(`<div id="html_198ebf90dad070d1bd23db03a68ca937" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 101</div>`)[0];
+                popup_d12bab5b2c5713cb31ebffb84d903ebf.setContent(html_198ebf90dad070d1bd23db03a68ca937);
+            
+        
+
+        circle_marker_33dfe8666a11ca7e05f3a839ddb5ab17.bindPopup(popup_d12bab5b2c5713cb31ebffb84d903ebf)
+        ;
+
+        
+    
+    
+            var circle_marker_e0503b95cb6253776f17501de243fdbb = L.circleMarker(
+                [51.20271519, 4.443659589],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.04987562112089, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_221c5d7d4dd332c50edee6ed38461de1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d01981039f6e98690356da57cb317f0 = $(`<div id="html_0d01981039f6e98690356da57cb317f0" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 101</div>`)[0];
+                popup_221c5d7d4dd332c50edee6ed38461de1.setContent(html_0d01981039f6e98690356da57cb317f0);
+            
+        
+
+        circle_marker_e0503b95cb6253776f17501de243fdbb.bindPopup(popup_221c5d7d4dd332c50edee6ed38461de1)
+        ;
+
+        
+    
+    
+            var circle_marker_d58613ed237d87adb25580538c9ef809 = L.circleMarker(
+                [51.198659, 4.403265552],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.04987562112089, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_712ad4ba57838a9cec01340a7dc9091d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52a7700e24d8db5b1bf7cab1cb2a62ff = $(`<div id="html_52a7700e24d8db5b1bf7cab1cb2a62ff" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 101</div>`)[0];
+                popup_712ad4ba57838a9cec01340a7dc9091d.setContent(html_52a7700e24d8db5b1bf7cab1cb2a62ff);
+            
+        
+
+        circle_marker_d58613ed237d87adb25580538c9ef809.bindPopup(popup_712ad4ba57838a9cec01340a7dc9091d)
+        ;
+
+        
+    
+    
+            var circle_marker_2f6868a1b9668e00ccb19f2de5bb7a19 = L.circleMarker(
+                [51.2068747, 4.431036819],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.04987562112089, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_6472410f03d41293876ff7901cda7ae0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82fdd5c7eed24c9c26797bb88c00ec96 = $(`<div id="html_82fdd5c7eed24c9c26797bb88c00ec96" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 101</div>`)[0];
+                popup_6472410f03d41293876ff7901cda7ae0.setContent(html_82fdd5c7eed24c9c26797bb88c00ec96);
+            
+        
+
+        circle_marker_2f6868a1b9668e00ccb19f2de5bb7a19.bindPopup(popup_6472410f03d41293876ff7901cda7ae0)
+        ;
+
+        
+    
+    
+            var circle_marker_f6ca627375e2022509fc8948adfd464b = L.circleMarker(
+                [51.19948653, 4.394946057],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_ba67b35fa57a99a376f8a480dd3775e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3e000c90bb17504eff0c063362d2161 = $(`<div id="html_f3e000c90bb17504eff0c063362d2161" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 100</div>`)[0];
+                popup_ba67b35fa57a99a376f8a480dd3775e2.setContent(html_f3e000c90bb17504eff0c063362d2161);
+            
+        
+
+        circle_marker_f6ca627375e2022509fc8948adfd464b.bindPopup(popup_ba67b35fa57a99a376f8a480dd3775e2)
+        ;
+
+        
+    
+    
+            var circle_marker_bad307b115cd7a21fa1f6755dba9d4ae = L.circleMarker(
+                [51.21966737, 4.432286918],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_5f7966116fc73a4f671d7e1926229778 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e44336f23a21269951ee07c8b261ee92 = $(`<div id="html_e44336f23a21269951ee07c8b261ee92" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 100</div>`)[0];
+                popup_5f7966116fc73a4f671d7e1926229778.setContent(html_e44336f23a21269951ee07c8b261ee92);
+            
+        
+
+        circle_marker_bad307b115cd7a21fa1f6755dba9d4ae.bindPopup(popup_5f7966116fc73a4f671d7e1926229778)
+        ;
+
+        
+    
+    
+            var circle_marker_90b02897dc7a6aff223eee50187286a4 = L.circleMarker(
+                [51.22533567, 4.43527381],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9498743710662, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_57ba6b9c53c82d1c312827c2104fc617 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1293868a349390c89acc15684b552a8f = $(`<div id="html_1293868a349390c89acc15684b552a8f" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 99</div>`)[0];
+                popup_57ba6b9c53c82d1c312827c2104fc617.setContent(html_1293868a349390c89acc15684b552a8f);
+            
+        
+
+        circle_marker_90b02897dc7a6aff223eee50187286a4.bindPopup(popup_57ba6b9c53c82d1c312827c2104fc617)
+        ;
+
+        
+    
+    
+            var circle_marker_c6df3f64003a05a67428db70885cd13a = L.circleMarker(
+                [51.19273603, 4.420993727],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9498743710662, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_93e0555779121d8f7ccf3740991063d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d3e7d22b05acd320f34114c415124f7 = $(`<div id="html_9d3e7d22b05acd320f34114c415124f7" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 99</div>`)[0];
+                popup_93e0555779121d8f7ccf3740991063d9.setContent(html_9d3e7d22b05acd320f34114c415124f7);
+            
+        
+
+        circle_marker_c6df3f64003a05a67428db70885cd13a.bindPopup(popup_93e0555779121d8f7ccf3740991063d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2323a1937383e6060c467d676893226f = L.circleMarker(
+                [51.20580481, 4.410730328],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9498743710662, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_b1be790c4985dafc7243ef6c04385e36 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5680ed0ca9febc0f165d38e041be7dbf = $(`<div id="html_5680ed0ca9febc0f165d38e041be7dbf" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 99</div>`)[0];
+                popup_b1be790c4985dafc7243ef6c04385e36.setContent(html_5680ed0ca9febc0f165d38e041be7dbf);
+            
+        
+
+        circle_marker_2323a1937383e6060c467d676893226f.bindPopup(popup_b1be790c4985dafc7243ef6c04385e36)
+        ;
+
+        
+    
+    
+            var circle_marker_5380f9a3b8d2570cf47cccd5923a8653 = L.circleMarker(
+                [51.1957278, 4.451564824],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9498743710662, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_43b80639b8151533e1fcf1a46aa4822e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a90d1d049056338bbce83a9eb048886 = $(`<div id="html_7a90d1d049056338bbce83a9eb048886" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2140<br>Veg restaurants: 99</div>`)[0];
+                popup_43b80639b8151533e1fcf1a46aa4822e.setContent(html_7a90d1d049056338bbce83a9eb048886);
+            
+        
+
+        circle_marker_5380f9a3b8d2570cf47cccd5923a8653.bindPopup(popup_43b80639b8151533e1fcf1a46aa4822e)
+        ;
+
+        
+    
+    
+            var circle_marker_8a5c0674532d5137672de3af5566e953 = L.circleMarker(
+                [51.22336531, 4.438563218],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9498743710662, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_7a31d77c61f6aa7c83c47090d9d0f998 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b367656bb48d7803fc24fefc4d077562 = $(`<div id="html_b367656bb48d7803fc24fefc4d077562" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 99</div>`)[0];
+                popup_7a31d77c61f6aa7c83c47090d9d0f998.setContent(html_b367656bb48d7803fc24fefc4d077562);
+            
+        
+
+        circle_marker_8a5c0674532d5137672de3af5566e953.bindPopup(popup_7a31d77c61f6aa7c83c47090d9d0f998)
+        ;
+
+        
+    
+    
+            var circle_marker_8b4a6ace1458492c5375064a4238b211 = L.circleMarker(
+                [51.20925194, 4.409604975],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.899494936611665, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_bf430580afd51b9958d65a1783635d21 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4e3714361b81f537979067c02920290 = $(`<div id="html_b4e3714361b81f537979067c02920290" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2018<br>Veg restaurants: 98</div>`)[0];
+                popup_bf430580afd51b9958d65a1783635d21.setContent(html_b4e3714361b81f537979067c02920290);
+            
+        
+
+        circle_marker_8b4a6ace1458492c5375064a4238b211.bindPopup(popup_bf430580afd51b9958d65a1783635d21)
+        ;
+
+        
+    
+    
+            var circle_marker_ca440f1d9d6d681a9219959e61215b9b = L.circleMarker(
+                [51.22631686, 4.423659622],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.899494936611665, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_792493a8a6527b4eccde842f88e60868 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60c3db521aa9c7d1b339ee9548a1fc78 = $(`<div id="html_60c3db521aa9c7d1b339ee9548a1fc78" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 98</div>`)[0];
+                popup_792493a8a6527b4eccde842f88e60868.setContent(html_60c3db521aa9c7d1b339ee9548a1fc78);
+            
+        
+
+        circle_marker_ca440f1d9d6d681a9219959e61215b9b.bindPopup(popup_792493a8a6527b4eccde842f88e60868)
+        ;
+
+        
+    
+    
+            var circle_marker_38e66fd3d23f3a38447942e66a34666b = L.circleMarker(
+                [51.23177905, 4.4281696],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.848857801796104, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_4d8c86a7352fd7b18e5be57671408799 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f7c7270608364fe4ff25766f06a4904 = $(`<div id="html_0f7c7270608364fe4ff25766f06a4904" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 97</div>`)[0];
+                popup_4d8c86a7352fd7b18e5be57671408799.setContent(html_0f7c7270608364fe4ff25766f06a4904);
+            
+        
+
+        circle_marker_38e66fd3d23f3a38447942e66a34666b.bindPopup(popup_4d8c86a7352fd7b18e5be57671408799)
+        ;
+
+        
+    
+    
+            var circle_marker_6e1d1062ce3b4057defb64d663f14c5b = L.circleMarker(
+                [51.22089878, 4.42228923],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.848857801796104, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_cd699fc828c20c4c0c07744a9822ee0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_318a900bddd2ce1cdaf71655477d295b = $(`<div id="html_318a900bddd2ce1cdaf71655477d295b" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2060<br>Veg restaurants: 97</div>`)[0];
+                popup_cd699fc828c20c4c0c07744a9822ee0f.setContent(html_318a900bddd2ce1cdaf71655477d295b);
+            
+        
+
+        circle_marker_6e1d1062ce3b4057defb64d663f14c5b.bindPopup(popup_cd699fc828c20c4c0c07744a9822ee0f)
+        ;
+
+        
+    
+    
+            var circle_marker_5cffd0b7da658f02c3c30b482b3ab246 = L.circleMarker(
+                [51.19471969, 4.442751806],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.848857801796104, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_a2d8770ca4b1baae1d55330579446bd7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26d7307f732583c74863b7a1a80383d7 = $(`<div id="html_26d7307f732583c74863b7a1a80383d7" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 97</div>`)[0];
+                popup_a2d8770ca4b1baae1d55330579446bd7.setContent(html_26d7307f732583c74863b7a1a80383d7);
+            
+        
+
+        circle_marker_5cffd0b7da658f02c3c30b482b3ab246.bindPopup(popup_a2d8770ca4b1baae1d55330579446bd7)
+        ;
+
+        
+    
+    
+            var circle_marker_4ca13e717fae5ed51a086cf3277ac672 = L.circleMarker(
+                [51.18668616, 4.426231615],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.797958971132712, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_f5269a877ab1d368d6bdcc40aa611507 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f5d3686d7f9a17b9d78fbcde0c7a1b0 = $(`<div id="html_8f5d3686d7f9a17b9d78fbcde0c7a1b0" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 96</div>`)[0];
+                popup_f5269a877ab1d368d6bdcc40aa611507.setContent(html_8f5d3686d7f9a17b9d78fbcde0c7a1b0);
+            
+        
+
+        circle_marker_4ca13e717fae5ed51a086cf3277ac672.bindPopup(popup_f5269a877ab1d368d6bdcc40aa611507)
+        ;
+
+        
+    
+    
+            var circle_marker_6b07fa4cd17163370624b908eb071395 = L.circleMarker(
+                [51.20520074, 4.393356421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.797958971132712, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_d900e2c929be606522693c4b89b8e0db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2ccb219014319253bf64a6f87816c3b7 = $(`<div id="html_2ccb219014319253bf64a6f87816c3b7" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 96</div>`)[0];
+                popup_d900e2c929be606522693c4b89b8e0db.setContent(html_2ccb219014319253bf64a6f87816c3b7);
+            
+        
+
+        circle_marker_6b07fa4cd17163370624b908eb071395.bindPopup(popup_d900e2c929be606522693c4b89b8e0db)
+        ;
+
+        
+    
+    
+            var circle_marker_a5790fa52854d43e92e2d556a86f122a = L.circleMarker(
+                [51.17970814, 4.428578906],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.797958971132712, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_000c381840f07b9b34b8f28958730e16 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e9e96a13e24f4cd297e588bc344fb37 = $(`<div id="html_8e9e96a13e24f4cd297e588bc344fb37" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 96</div>`)[0];
+                popup_000c381840f07b9b34b8f28958730e16.setContent(html_8e9e96a13e24f4cd297e588bc344fb37);
+            
+        
+
+        circle_marker_a5790fa52854d43e92e2d556a86f122a.bindPopup(popup_000c381840f07b9b34b8f28958730e16)
+        ;
+
+        
+    
+    
+            var circle_marker_9574d2c5ba406ebd228dad61afa3a743 = L.circleMarker(
+                [51.18829291, 4.435374035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.797958971132712, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_717222f0b5669b65bb4bb49bc7c0ab8d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99622d66331b73f98823faa5bad97509 = $(`<div id="html_99622d66331b73f98823faa5bad97509" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 96</div>`)[0];
+                popup_717222f0b5669b65bb4bb49bc7c0ab8d.setContent(html_99622d66331b73f98823faa5bad97509);
+            
+        
+
+        circle_marker_9574d2c5ba406ebd228dad61afa3a743.bindPopup(popup_717222f0b5669b65bb4bb49bc7c0ab8d)
+        ;
+
+        
+    
+    
+            var circle_marker_f5ac06894bbf9e42aee0c47f0d023aa0 = L.circleMarker(
+                [51.17778398, 4.436167468],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.695359714832659, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_2817f5892af52a08a63e9e63ae3f87f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2df80ed7713c306034890ac79f8500f8 = $(`<div id="html_2df80ed7713c306034890ac79f8500f8" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2600<br>Veg restaurants: 94</div>`)[0];
+                popup_2817f5892af52a08a63e9e63ae3f87f5.setContent(html_2df80ed7713c306034890ac79f8500f8);
+            
+        
+
+        circle_marker_f5ac06894bbf9e42aee0c47f0d023aa0.bindPopup(popup_2817f5892af52a08a63e9e63ae3f87f5)
+        ;
+
+        
+    
+    
+            var circle_marker_139b2d073f4d25b1ca9c0657eeb1b3ab = L.circleMarker(
+                [51.05350319, 3.719796213],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_43a933a8004e594788066ac37355c8d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7cfea04a62ceb636794a3194c5016d0 = $(`<div id="html_c7cfea04a62ceb636794a3194c5016d0" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_43a933a8004e594788066ac37355c8d9.setContent(html_c7cfea04a62ceb636794a3194c5016d0);
+            
+        
+
+        circle_marker_139b2d073f4d25b1ca9c0657eeb1b3ab.bindPopup(popup_43a933a8004e594788066ac37355c8d9)
+        ;
+
+        
+    
+    
+            var circle_marker_ba531333e05b6b06d28456feb71fe9b9 = L.circleMarker(
+                [51.05654622, 3.727652208],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_ad69e1ce8b59d6379dc326f729e2b7cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb89e1bfacfed3996c7e12e33f4b43e1 = $(`<div id="html_bb89e1bfacfed3996c7e12e33f4b43e1" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_ad69e1ce8b59d6379dc326f729e2b7cf.setContent(html_bb89e1bfacfed3996c7e12e33f4b43e1);
+            
+        
+
+        circle_marker_ba531333e05b6b06d28456feb71fe9b9.bindPopup(popup_ad69e1ce8b59d6379dc326f729e2b7cf)
+        ;
+
+        
+    
+    
+            var circle_marker_1131adc807f55b84b31931b57993b877 = L.circleMarker(
+                [51.05299579, 3.727199683],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_9362bf4aa2fae6b93702167b0ba1478a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29ffe238cb3065bef9cf54bfd2d9735b = $(`<div id="html_29ffe238cb3065bef9cf54bfd2d9735b" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_9362bf4aa2fae6b93702167b0ba1478a.setContent(html_29ffe238cb3065bef9cf54bfd2d9735b);
+            
+        
+
+        circle_marker_1131adc807f55b84b31931b57993b877.bindPopup(popup_9362bf4aa2fae6b93702167b0ba1478a)
+        ;
+
+        
+    
+    
+            var circle_marker_9b19e947f2165cb7cdeca8a10aa3074e = L.circleMarker(
+                [51.05396769, 3.722955552],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_8a04bb4f1e7132778729a644d1ad43dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5caaeef713ea8a0e5f5e44b45bf7027b = $(`<div id="html_5caaeef713ea8a0e5f5e44b45bf7027b" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_8a04bb4f1e7132778729a644d1ad43dd.setContent(html_5caaeef713ea8a0e5f5e44b45bf7027b);
+            
+        
+
+        circle_marker_9b19e947f2165cb7cdeca8a10aa3074e.bindPopup(popup_8a04bb4f1e7132778729a644d1ad43dd)
+        ;
+
+        
+    
+    
+            var circle_marker_4055c3e588a699d2c095be16573f9267 = L.circleMarker(
+                [51.21043024, 4.396004201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_6265d56c0331f68c3acdfc0d3d1f4e88 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_61dc9a8c32011e9217ae92717093895a = $(`<div id="html_61dc9a8c32011e9217ae92717093895a" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_6265d56c0331f68c3acdfc0d3d1f4e88.setContent(html_61dc9a8c32011e9217ae92717093895a);
+            
+        
+
+        circle_marker_4055c3e588a699d2c095be16573f9267.bindPopup(popup_6265d56c0331f68c3acdfc0d3d1f4e88)
+        ;
+
+        
+    
+    
+            var circle_marker_9b133ae67328778624ae98e85042c5f3 = L.circleMarker(
+                [51.22013181, 4.410574211],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_47833e60fa0890ec75d777edb85cd3dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffc772bb9dc8d7ee7665f2bb81cbdfcf = $(`<div id="html_ffc772bb9dc8d7ee7665f2bb81cbdfcf" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_47833e60fa0890ec75d777edb85cd3dc.setContent(html_ffc772bb9dc8d7ee7665f2bb81cbdfcf);
+            
+        
+
+        circle_marker_9b133ae67328778624ae98e85042c5f3.bindPopup(popup_47833e60fa0890ec75d777edb85cd3dc)
+        ;
+
+        
+    
+    
+            var circle_marker_42192ff3b16bab9bbd84f6d8ad7b3558 = L.circleMarker(
+                [51.22295724, 4.414514329],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_574f8242e53c7359398282ba02c57003 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8f0740d12e8fdbe241e5bd4e05f82e53 = $(`<div id="html_8f0740d12e8fdbe241e5bd4e05f82e53" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_574f8242e53c7359398282ba02c57003.setContent(html_8f0740d12e8fdbe241e5bd4e05f82e53);
+            
+        
+
+        circle_marker_42192ff3b16bab9bbd84f6d8ad7b3558.bindPopup(popup_574f8242e53c7359398282ba02c57003)
+        ;
+
+        
+    
+    
+            var circle_marker_f86badb294ad474eba2cb79030712489 = L.circleMarker(
+                [51.1771979, 4.422814397],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_dafa7b19a9bd3b3b69ec5a35b7672985 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b77e4d65c6c6392b110a83c6b34743d = $(`<div id="html_6b77e4d65c6c6392b110a83c6b34743d" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2020<br>Veg restaurants: 92</div>`)[0];
+                popup_dafa7b19a9bd3b3b69ec5a35b7672985.setContent(html_6b77e4d65c6c6392b110a83c6b34743d);
+            
+        
+
+        circle_marker_f86badb294ad474eba2cb79030712489.bindPopup(popup_dafa7b19a9bd3b3b69ec5a35b7672985)
+        ;
+
+        
+    
+    
+            var circle_marker_7063dd831a537c7de710aa9246755e29 = L.circleMarker(
+                [51.22161862, 4.414649073],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_26238e5f7f9ef66a2a248ac622f8bcb4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d624eb0bd212d6215f91d7ef2d2c93e = $(`<div id="html_6d624eb0bd212d6215f91d7ef2d2c93e" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_26238e5f7f9ef66a2a248ac622f8bcb4.setContent(html_6d624eb0bd212d6215f91d7ef2d2c93e);
+            
+        
+
+        circle_marker_7063dd831a537c7de710aa9246755e29.bindPopup(popup_26238e5f7f9ef66a2a248ac622f8bcb4)
+        ;
+
+        
+    
+    
+            var circle_marker_ab6a78665d5c086762771b91738ccefa = L.circleMarker(
+                [51.048799, 3.735018042],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_fe473a3c7af9cb0bde1c657e92ade92e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e872324126cd17c2765ba321fb4b6464 = $(`<div id="html_e872324126cd17c2765ba321fb4b6464" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_fe473a3c7af9cb0bde1c657e92ade92e.setContent(html_e872324126cd17c2765ba321fb4b6464);
+            
+        
+
+        circle_marker_ab6a78665d5c086762771b91738ccefa.bindPopup(popup_fe473a3c7af9cb0bde1c657e92ade92e)
+        ;
+
+        
+    
+    
+            var circle_marker_0527185d2e4786d0d52f16ca2f930711 = L.circleMarker(
+                [51.04308545, 3.719740433],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_1a24aa5479605a7263a95740e0e16d41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4024900384e2f8a59e148a4b8965634b = $(`<div id="html_4024900384e2f8a59e148a4b8965634b" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_1a24aa5479605a7263a95740e0e16d41.setContent(html_4024900384e2f8a59e148a4b8965634b);
+            
+        
+
+        circle_marker_0527185d2e4786d0d52f16ca2f930711.bindPopup(popup_1a24aa5479605a7263a95740e0e16d41)
+        ;
+
+        
+    
+    
+            var circle_marker_626086e93762e94cc102a482d994f73c = L.circleMarker(
+                [51.0542709, 3.727749125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_b17ed3322f7217765821f7075ec5328c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0775b7ba6a1ef7415aaf59b50bca6653 = $(`<div id="html_0775b7ba6a1ef7415aaf59b50bca6653" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_b17ed3322f7217765821f7075ec5328c.setContent(html_0775b7ba6a1ef7415aaf59b50bca6653);
+            
+        
+
+        circle_marker_626086e93762e94cc102a482d994f73c.bindPopup(popup_b17ed3322f7217765821f7075ec5328c)
+        ;
+
+        
+    
+    
+            var circle_marker_aff67b1d5b5a56a941931c3df8512d9d = L.circleMarker(
+                [51.04243255, 3.727416366],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_993fd84e0457566088dc66f2e02a089c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d2805aee297cebe9062c844e04cabee = $(`<div id="html_8d2805aee297cebe9062c844e04cabee" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_993fd84e0457566088dc66f2e02a089c.setContent(html_8d2805aee297cebe9062c844e04cabee);
+            
+        
+
+        circle_marker_aff67b1d5b5a56a941931c3df8512d9d.bindPopup(popup_993fd84e0457566088dc66f2e02a089c)
+        ;
+
+        
+    
+    
+            var circle_marker_02c0d127e5099658cc9729dfe68fba88 = L.circleMarker(
+                [51.04812378, 3.736176236],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_b57986781ac9e8a71ac4c73391893e3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfb017df65dab7831c316c4a49320bda = $(`<div id="html_cfb017df65dab7831c316c4a49320bda" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_b57986781ac9e8a71ac4c73391893e3c.setContent(html_cfb017df65dab7831c316c4a49320bda);
+            
+        
+
+        circle_marker_02c0d127e5099658cc9729dfe68fba88.bindPopup(popup_b57986781ac9e8a71ac4c73391893e3c)
+        ;
+
+        
+    
+    
+            var circle_marker_14a4bdeff9d35994d4aa9c76f997b68c = L.circleMarker(
+                [51.04418233, 3.724083951],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_198431b4bb43655c11edfca61cacdc0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60adf2cfe352a49f9f73e99b62c57eab = $(`<div id="html_60adf2cfe352a49f9f73e99b62c57eab" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_198431b4bb43655c11edfca61cacdc0b.setContent(html_60adf2cfe352a49f9f73e99b62c57eab);
+            
+        
+
+        circle_marker_14a4bdeff9d35994d4aa9c76f997b68c.bindPopup(popup_198431b4bb43655c11edfca61cacdc0b)
+        ;
+
+        
+    
+    
+            var circle_marker_0c0d4f860c58762885e5bd7e03a17b96 = L.circleMarker(
+                [51.05374402, 3.727172395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_69c63df42071490e8a175490d867853c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2591b0426d21dad772aefc335cd2707 = $(`<div id="html_e2591b0426d21dad772aefc335cd2707" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_69c63df42071490e8a175490d867853c.setContent(html_e2591b0426d21dad772aefc335cd2707);
+            
+        
+
+        circle_marker_0c0d4f860c58762885e5bd7e03a17b96.bindPopup(popup_69c63df42071490e8a175490d867853c)
+        ;
+
+        
+    
+    
+            var circle_marker_a29c9d7f0249edeb0014c0343215350f = L.circleMarker(
+                [51.2236224, 4.412219136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_af15de3b449e41887d9c7d36306f146a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_76b9f6548c998438f4b985fb87ffc120 = $(`<div id="html_76b9f6548c998438f4b985fb87ffc120" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_af15de3b449e41887d9c7d36306f146a.setContent(html_76b9f6548c998438f4b985fb87ffc120);
+            
+        
+
+        circle_marker_a29c9d7f0249edeb0014c0343215350f.bindPopup(popup_af15de3b449e41887d9c7d36306f146a)
+        ;
+
+        
+    
+    
+            var circle_marker_11a0483b5903c910e0a36d014456537f = L.circleMarker(
+                [51.22520297, 4.413007251],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_998413ee740cf3cdac230ddfbf00985b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6c2978099284131d08670600c156062 = $(`<div id="html_c6c2978099284131d08670600c156062" style="width: 100.0%; height: 100.0%;">City: Antwerp<br>Postal code: 2000<br>Veg restaurants: 92</div>`)[0];
+                popup_998413ee740cf3cdac230ddfbf00985b.setContent(html_c6c2978099284131d08670600c156062);
+            
+        
+
+        circle_marker_11a0483b5903c910e0a36d014456537f.bindPopup(popup_998413ee740cf3cdac230ddfbf00985b)
+        ;
+
+        
+    
+    
+            var circle_marker_2b00f53c148ba75da141554444db673c = L.circleMarker(
+                [51.04595746, 3.736327066],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_4b3d59588a3b92dce3dbd171ab86a6b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e34d244355cd759a0077195eae1000c = $(`<div id="html_1e34d244355cd759a0077195eae1000c" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_4b3d59588a3b92dce3dbd171ab86a6b9.setContent(html_1e34d244355cd759a0077195eae1000c);
+            
+        
+
+        circle_marker_2b00f53c148ba75da141554444db673c.bindPopup(popup_4b3d59588a3b92dce3dbd171ab86a6b9)
+        ;
+
+        
+    
+    
+            var circle_marker_fabf482be0ae6ceb7f8b374adf12f6ae = L.circleMarker(
+                [51.0575934, 3.728688709],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.591663046625438, "stroke": true, "weight": 3}
+            ).addTo(map_133d2ab192ef16efddd179e5446bc6b2);
+        
+    
+        var popup_7a2336fed8e624b6fa849ac857c41615 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4bab41b4d1924db37ce93d02ae2d1712 = $(`<div id="html_4bab41b4d1924db37ce93d02ae2d1712" style="width: 100.0%; height: 100.0%;">City: Ghent<br>Postal code: 9000<br>Veg restaurants: 92</div>`)[0];
+                popup_7a2336fed8e624b6fa849ac857c41615.setContent(html_4bab41b4d1924db37ce93d02ae2d1712);
+            
+        
+
+        circle_marker_fabf482be0ae6ceb7f8b374adf12f6ae.bindPopup(popup_7a2336fed8e624b6fa849ac857c41615)
+        ;
+
+        
+    
+</script>
+</html>
