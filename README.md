@@ -1,4 +1,5 @@
-# Delivery Market Analysis (Belgium)
+
+# Delivery Market Analysis
 
 The **Delivery Market Analysis** project explores trends, customer preferences, and market dynamics in Belgium’s food delivery industry. It focuses on the performance of three major platforms: **TakeAway**, **UberEats**, and **Deliveroo**.
 
@@ -13,21 +14,26 @@ Using real-world databases, the project delivers actionable insights for both **
 ## 📦 Repo Structure
 
 ```text
-delivery-market-analysis/
-├── data/
-│   ├── exports/
-│   ├── deliveroo.db
-│   ├── takeaway.db
-│   └── ubereats.db
-├── notebooks/
-│   ├── 00_schema_di…     (notebook)
-│   ├── Analysis_quest…   (notebook)
-│   ├── CSV_export.ip…    (notebook)
-│   ├── data_explor.ip…   (notebook)
-│   └── NiceToHave…       (notebook)
-├── venv/
-├── .gitignore
-└── README.md
+delivery-market-.../
+├─ assets/
+├─ data/
+│  ├─ databases/
+│  ├─ exports-takeaway-...
+│  ├─ maps/
+│  ├─ deliveroo.db
+│  ├─ georef-belgium.ge...
+│  ├─ takeaway.db
+│  └─ ubereats.db
+├─ notebooks/
+│  ├─ 00_schema_discove...
+│  ├─ Analysis_questions...
+│  ├─ CSV_export.ipynb
+│  ├─ data_explor.ipynb
+│  └─ NiceToHave.ipynb
+├─ venv/
+├─ .gitignore
+├─ README.md
+└─requirements
 
 ```
 # 🎯 Must-have Features
@@ -49,7 +55,50 @@ delivery-market-analysis/
 
 All of the questions above are addressed in this analysis.
 
+## 📊 Visual Insights
+
+<table>
+  <tr>
+    <td><img src="../assets/price_distribution_by_menu_items.png" width="250"></td>
+    <td><img src="../assets/restaurant_distribution.png" width="280"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="../assets/Top_10_pizza_restaurants_rating.png" width="250"></td>
+    <td><img src="../assets/restaurants_ with_Kapsalon_location.png" width="300"></td>
+  </tr>
+</table>
+
+**Additional Analysis:**
+
+<table>
+  <tr>
+    <td><img src="../assets/veggie_dishes_distribution.png" width="300"></td>
+    <td><img src="../assets/top_hammus_restaurants.png" width="250"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="../assets/venn_diagram_restaurants.png" width="250"></td>
+    <td><img src="../assets/dead_zone.png" width="400"></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="../assets/average_delivery_fee_postal_code.png" width="300"></td>
+    <td><img src="../assets/number_of_restaurants.png" width="250"></td>
+  </tr>
+</table>
+
 ## ⏱️ Project Timeline
 
 - **Initial setup:** completed in **4 days**  
-- **Context:** developed as part of my **7-month AI & datascience training bootcamp** at **BeCode (Ghent, Belgium)**
+
+## 👥 Contributors
+
+This project is part of AI & Data Science Bootcamp training at **</becode** and it was done by: 
+
+- Welederufeal Tadege [LinkedIn](https://www.linkedin.com/in/) | [Github](https://github.com/welde2001-bot) 
