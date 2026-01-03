@@ -1,7 +1,12 @@
 
 # Delivery Market Analysis
 
-![Delivery](/assets/food_delivery.png)
+<p align="center">
+  <img src="assets/food_delivery.png" alt="Delivery" height="200">
+</p>
+
+
+
 
 The **Delivery Market Analysis** project explores trends, customer preferences, and market dynamics in Belgium’s food delivery industry. It focuses on the performance of three major platforms: **TakeAway**, **UberEats**, and **Deliveroo**.
 
@@ -61,15 +66,15 @@ All of the questions above are addressed in this analysis.
 
 <table>
   <tr>
-    <td><img src="../assets/price_distribution_by_menu_items.png" width="250"></td>
-    <td><img src="../assets/restaurant_distribution.png" width="280"></td>
+    <td><img src="./assets/price_distribution_by_menu_items.png" width="250"></td>
+    <td><img src="./assets/restaurant_distribution.png" width="280"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="../assets/Top_10_pizza_restaurants_rating.png" width="250"></td>
-    <td><img src="../assets/restaurants_ with_Kapsalon_location.png" width="300"></td>
+    <td><img src="./assets/Top_10_pizza_restaurants_rating.png" width="250"></td>
+    <td><img src="./assets/restaurants_ with_Kapsalon_location.png" width="300"></td>
   </tr>
 </table>
 
@@ -77,21 +82,21 @@ All of the questions above are addressed in this analysis.
 
 <table>
   <tr>
-    <td><img src="../assets/veggie_dishes_distribution.png" width="300"></td>
-    <td><img src="../assets/top_hammus_restaurants.png" width="250"></td>
+    <td><img src="./assets/veggie_dishes_distribution.png" width="300"></td>
+    <td><img src="./assets/top_hammus_restaurants.png" width="250"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="../assets/venn_diagram_restaurants.png" width="250"></td>
-    <td><img src="../assets/dead_zone.png" width="400"></td>
+    <td><img src="./assets/venn_diagram_restaurants.png" width="250"></td>
+    <td><img src="./assets/dead_zone.png" width="400"></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="../assets/average_delivery_fee_postal_code.png" width="300"></td>
-    <td><img src="../assets/number_of_restaurants.png" width="250"></td>
+    <td><img src="./assets/average_delivery_fee_postal_code.png" width="300"></td>
+    <td><img src="./assets/number_of_restaurants.png" width="250"></td>
   </tr>
 </table>
 
