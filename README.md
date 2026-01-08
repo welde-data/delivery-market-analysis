@@ -2,9 +2,8 @@
 # Delivery Market Analysis
 
 <p align="center">
-  <img src="assets/food_delivery.png" alt="Delivery" height="200">
+  <img src="assets/food_delivery.png" alt="Delivery" width="100%">
 </p>
-
 
 
 
